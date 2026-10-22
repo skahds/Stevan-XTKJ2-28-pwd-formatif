@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kumpulan Tombol</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 32px;
+        background: rgb(225, 252, 220);
+        color: #263244;
+        font-family: Arial, sans-serif;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+      }
+
+      h2 {
+        color: #1e293b;
+        font-size: 20px;
+        margin: 0 0 20px;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        transition:
+          background-color 160ms ease,
+          color 160ms ease,
+          border-color 160ms ease;
+      }
+
+      .button-group .btn {
+        margin: 0 10px 10px 0;
+      }
+
+      .btn-primary {
+        background: #243b60;
+        color: white;
+      }
+
+      .btn-secondary {
+        background: rgb(205, 220, 242);
+      }
+
+      .btn-outline {
+        background: white;
+        border-color: #243b60;
+      }
+
+      .btn-send {
+        background: rgba(218, 132, 61, 1);
+        color: white;
+      }
+
+      .btn-secondary,
+      .btn-outline {
+        color: #263244;
+      }
+
+      .btn-primary:hover {
+        background: #152740;
+      }
+
+      .btn-secondary:hover {
+        background: rgb(166, 192, 226);
+      }
+
+      .btn-outline:hover {
+        background: #e6edf7;
+      }
+
+      .btn-send:hover {
+        background: rgba(183, 96, 37, 1);
+      }
+
+      footer {
+        margin-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="home">
+      <h2>Kumpulan Tombol</h2>
+      <div class="button-group">
+        <a class="btn btn-primary" href="#projects">Lihat Proyek</a>
+        <a class="btn btn-secondary" href="#cv">Unduh CV</a>
+        <a class="btn btn-outline" href="#contact">Hubungi Saya</a>
+        <a class="btn btn-send" href="mailto:stevan.001@ski.sch.id">Kirim Pesan</a>
+      </div>
+      <footer><a href="#home">Kembali ke Beranda</a></footer>
+    </main>
+  </body>
+</html>
