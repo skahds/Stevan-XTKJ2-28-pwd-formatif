@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ff;
+    color: #302344;
+    padding: 24px;
+}
+
+.menu a {
+    color: #61468f;
+    margin-right: 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #aa64d6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+}
+
+.btn-grow {
+    background-color: #9470cf;
+    transition: transform 0.3s ease-out;
+}
+
+.btn-grow:hover {
+    transform: scale(1.05);
+}
+
+.btn-darken {
+    background-color: #7542ad;
+    transition: background-color 0.4s linear;
+}
+
+.btn-darken:hover {
+    background-color: #4e277b;
+}
+
+a:focus {
+    outline: 2px solid #3d185e;
+}
+
+footer {
+    margin-top: 32px;
+}
